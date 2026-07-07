@@ -1,0 +1,6 @@
+2026/06/24-06:51:23.817 bef Reusing MANIFEST /home/devasc/snap/postman/360/.config/Postman/Partitions/14aae7f0-a492-4d83-8125-7e4f60a59b9c/Local Storage/leveldb/MANIFEST-000001
+2026/06/24-06:51:24.054 bef Recovering log #3
+2026/06/24-06:51:24.095 bef Reusing old log /home/devasc/snap/postman/360/.config/Postman/Partitions/14aae7f0-a492-4d83-8125-7e4f60a59b9c/Local Storage/leveldb/000003.log 
+2026/06/24-06:53:27.303 bf0 Level-0 table #5: started
+2026/06/24-06:53:27.305 bf0 Level-0 table #5: 26045 bytes OK
+2026/06/24-06:53:27.306 bf0 Delete type=0 #3

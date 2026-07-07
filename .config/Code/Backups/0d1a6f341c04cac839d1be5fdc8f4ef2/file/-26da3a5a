@@ -1,0 +1,3 @@
+file:///home/devasc/labs/devnet-src/ansible/ansible-apache/hosts {"mtime":1591118760000,"ctime":1592385918925,"size":0,"etag":"356radabr0","orphaned":false,"typeId":""}
+Servidor Web
+192.0.2.3 ansible_ssh_user=devasc ansible_ssh_pass=cisco123!

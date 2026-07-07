@@ -1,0 +1,107 @@
+2026-06-10 01:29:46.372 [info] Started local extension host with pid 4543.
+2026-06-10 01:29:50.431 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-10 01:30:05.743 [error] [Extension Host] Error Python Extension: 2026-06-10 01:29:51: Failure during activation. [Error: The number of constructor arguments in the derived class o must be >= than the number of constructor arguments of its base class.
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261081
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at t.plan (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261159)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:257812
+	at e._get (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:257721)
+	at e.get (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:256432)
+	at a.get (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:48:999865)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:280985]
+2026-06-10 01:30:05.743 [error] [Extension Host] Error Python Extension: 2026-06-10 01:29:51: sendStartupTelemetry() failed. [Error: The number of constructor arguments in the derived class o must be >= than the number of constructor arguments of its base class.
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261081
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at t.plan (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261159)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:257812
+	at e._get (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:257721)
+	at e.get (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:256432)
+	at a.get (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:48:999865)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:280985]
+2026-06-10 01:30:05.744 [error] [Extension Host] (node:4543) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-06-10 01:30:06.028 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-10 01:30:06.029 [error] An unknown error occurred. Please consult the log for more details.
+2026-06-10 01:30:06.988 [error] [Extension Host] Error Python Extension: 2026-06-10 01:30:06: Failed to download and store experiments, Class name = b, completed in 16170ms, has a falsy return value, , Return Value: undefined [Error: Failed with status 404, Not Found, Uri https://raw.githubusercontent.com/microsoft/vscode-python/master/experiments.json
+	at H._callback (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:46:708571)
+	at a._callback.a.callback.a.callback (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/node_modules/request.js:195:5441)
+	at H.emit (node:events:519:28)
+	at H.<anonymous> (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/node_modules/request.js:195:18301)
+	at H.emit (node:events:519:28)
+	at IncomingMessage.<anonymous> (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/node_modules/request.js:195:17133)
+	at Object.onceWrapper (node:events:633:28)
+	at IncomingMessage.emit (node:events:531:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)]
+2026-06-10 01:30:06.995 [error] [Extension Host] Error Python Extension: 2026-06-10 01:30:06: Failed to initialize experiments, Class name = b, completed in 16187ms, has a falsy return value, , Return Value: undefined [Error: Failed with status 404, Not Found, Uri https://raw.githubusercontent.com/microsoft/vscode-python/master/experiments.json
+	at H._callback (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:46:708571)
+	at a._callback.a.callback.a.callback (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/node_modules/request.js:195:5441)
+	at H.emit (node:events:519:28)
+	at H.<anonymous> (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/node_modules/request.js:195:18301)
+	at H.emit (node:events:519:28)
+	at IncomingMessage.<anonymous> (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/node_modules/request.js:195:17133)
+	at Object.onceWrapper (node:events:633:28)
+	at IncomingMessage.emit (node:events:531:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)]
+2026-06-10 01:30:07.496 [info] Auto updating outdated extensions. ms-python.python
+2026-06-10 01:30:07.504 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-06-10 01:30:08.036 [info] Auto updating outdated extensions. ms-python.python
+2026-06-10 01:30:08.375 [info] [perf] Render performance baseline is 78ms
+2026-06-10 01:32:14.496 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/devasc/Jenkins/sample-app/claves.py' (Error: File Modified Since) file:///home/devasc/Jenkins/sample-app/claves.py
+2026-06-10 01:32:14.500 [info] [lifecycle]: Shutdown was prevented by final veto (id: veto.backups)
+2026-06-10 01:32:34.032 [info] Started local extension host with pid 4775.
+2026-06-10 01:32:35.775 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-10 01:32:36.563 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-06-10 01:32:37.374 [info] Auto updating outdated extensions. ms-python.python
+2026-06-10 01:32:38.018 [info] [perf] Render performance baseline is 39ms
+2026-06-10 01:32:40.771 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-10 01:33:27.793 [info] ChatService#cancelCurrentRequestForSession: No pending request was found for session vscode-chat-session://local/Mjk0ZWYxN2QtYzFlNy00MDUxLThiYzktNTlhODM1NTAyMTFk. requestInProgress=false, pendingRequests=0
+2026-06-10 01:33:27.794 [info] ChatService#cancelCurrentRequestForSession: No pending request was found for session vscode-chat-session://local/Mjk0ZWYxN2QtYzFlNy00MDUxLThiYzktNTlhODM1NTAyMTFk. requestInProgress=false, pendingRequests=0
+2026-06-10 01:56:15.661 [info] ChatService#cancelCurrentRequestForSession: No pending request was found for session vscode-chat-session://local/Zjk5ZWVhNmItOTAxOC00NDg5LTliNWEtYTkxMTVlNDIwMGE0. requestInProgress=false, pendingRequests=0
+2026-06-10 04:26:10.583 [info] ChatService#cancelCurrentRequestForSession: No pending request was found for session vscode-chat-session://local/ZTc1ZDZhZTAtOGM1ZC00ODRjLWJkYzgtODk3YjZhZTNmYzcw. requestInProgress=false, pendingRequests=0
+2026-06-10 04:26:10.584 [info] ChatService#cancelCurrentRequestForSession: No pending request was found for session vscode-chat-session://local/ZTc1ZDZhZTAtOGM1ZC00ODRjLWJkYzgtODk3YjZhZTNmYzcw. requestInProgress=false, pendingRequests=0
+2026-06-10 04:26:14.328 [info] ChatService#cancelCurrentRequestForSession: No pending request was found for session vscode-chat-session://local/NTRmZjczZDQtMTFmMC00MGU1LTkzYWItNTBjY2UzYTY0NmIx. requestInProgress=false, pendingRequests=0
+2026-06-10 04:26:14.328 [info] ChatService#cancelCurrentRequestForSession: No pending request was found for session vscode-chat-session://local/NTRmZjczZDQtMTFmMC00MGU1LTkzYWItNTBjY2UzYTY0NmIx. requestInProgress=false, pendingRequests=0

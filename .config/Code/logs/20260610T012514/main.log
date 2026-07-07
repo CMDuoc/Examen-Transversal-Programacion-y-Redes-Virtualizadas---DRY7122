@@ -1,0 +1,10 @@
+2026-06-10 01:25:15.039 [info] StorageMainService: creating application shared storage
+2026-06-10 01:25:15.039 [info] StorageMainService: creating application shared storage with local application storage fallback
+2026-06-10 01:25:15.039 [info] update#setState idle
+2026-06-10 01:25:15.118 [info] [shared storage] Creating shared storage database at '/home/devasc/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-06-10 01:25:15.123 [info] [shared storage] Initializing fallback application storage (type: local, path: /home/devasc/.config/Code/User/globalStorage/state.vscdb)
+2026-06-10 01:25:15.205 [info] [shared storage] Fallback application storage initialized with 76 items
+2026-06-10 01:27:26.138 [info] update#setState checking for updates
+2026-06-10 01:27:26.269 [info] update#setState idle
+2026-06-10 01:27:28.046 [info] Extension host with pid 3181 exited with code: 0, signal: unknown.
+2026-06-10 01:27:28.200 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 3195]: crashed with code 15 and reason 'killed'

@@ -1,0 +1,17 @@
+---
+- name: Generar respaldo del CSR1000v
+  hosts: routers
+  gather_facts: no
+  connection: network_cli
+
+  tasks:
+    - name: Ejecutar show running-config
+      ios_command:
+        commands: show running-config
+      register: config_output
+
+    - name: Guardar la configuracion en un archivo local
+      copy:
+        content: "{{ config_output.stdout[0] }}"
+        dest: "./respaldo_csr1000v.txt"
+      delegate_to: localhost

@@ -1,0 +1,96 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "89c4844a4338a34f970ff496a8d9c98c517f121ea0fe35b88363ca58e87fcd21",
+    "telemetry.devDeviceId": "54dd7d06-9664-42ab-916a-74c17ea79e1c",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/devasc/labs/Evaluacion2"
+            },
+            {
+                "folderUri": "file:///home/devasc/labs/devnet-src/ansible"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1779401384714"
+            }
+        ]
+    },
+    "windowControlHeight": 50,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/devasc": "__default__profile__",
+            "file:///home/devasc/labs/Evaluacion2": "__default__profile__",
+            "file:///home/devasc/labs/devnet-src/ansible": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1779401384714": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#121314",
+    "windowSplash": {
+        "zoomLevel": 2,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 9007199254740991,
+            "workspaces": {
+                "da9a6f97c490a9113ac5de348865b2ac": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "2204bdebbaddf99a4582b9d0bd85c3b3": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "1c0bd9c08737230911bbf7a0f6b57c6c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/devasc/labs/devnet-src/ansible",
+            "backupPath": "/home/devasc/.config/Code/Backups/0d1a6f341c04cac839d1be5fdc8f4ef2",
+            "uiState": {
+                "mode": 1,
+                "x": 0,
+                "y": 0,
+                "width": 688,
+                "height": 654
+            }
+        },
+        "openedWindows": []
+    }
+}

@@ -1,0 +1,8 @@
+file:///home/devasc/labs/devnet-src/ansible/ansible-apache/ansible.cfg {"mtime":1591118760000,"ctime":1592385918925,"size":39,"etag":"356radabr18","orphaned":false,"typeId":""}
+Predeterminado: )
+# Use el archivo de hosts local en esta carpeta
+inventario=./hosts 
+# No se preocupes por las huellas dactilares de RSA
+host_key_checking = False 
+# No crear archivos de reintento
+retry_files_enabled = False

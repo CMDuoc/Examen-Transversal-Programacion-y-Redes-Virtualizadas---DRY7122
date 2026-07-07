@@ -1,0 +1,28 @@
+2026-06-10 01:25:19.598 [info] [main] Log level: Info
+2026-06-10 01:25:19.598 [info] [main] Validating found git in: "git"
+2026-06-10 01:25:19.655 [info] [main] Using git "2.25.1" from "git"
+2026-06-10 01:25:19.655 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-10 01:25:19.703 [info] > git rev-parse --show-toplevel [40ms]
+2026-06-10 01:25:19.773 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [66ms]
+2026-06-10 01:27:26.973 [info] [Model][openRepository] Opened repository (path): /home/devasc/Jenkins/sample-app
+2026-06-10 01:27:26.973 [info] [Model][openRepository] Opened repository (real path): /home/devasc/Jenkins/sample-app
+2026-06-10 01:27:26.973 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-10 01:27:26.998 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-10 01:27:27.040 [info] > git config --get commit.template [29ms]
+2026-06-10 01:27:27.040 [info] > git config --get --local core.virtualfilesystem [42ms]
+2026-06-10 01:27:27.040 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-10 01:27:27.145 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [72ms]
+2026-06-10 01:27:27.283 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [73ms]
+2026-06-10 01:27:27.320 [info] > git status -z -uall [155ms]
+2026-06-10 01:27:27.354 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2026-06-10 01:27:27.388 [info] > git config --get commit.template [37ms]
+2026-06-10 01:27:27.396 [info] > git config --get --local branch.master.vscode-merge-base [9ms]
+2026-06-10 01:27:27.396 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-10 01:27:27.404 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2026-06-10 01:27:27.463 [info] > git status -z -uall [46ms]
+2026-06-10 01:27:27.463 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [32ms]
+2026-06-10 01:27:27.472 [info] > git reflog master --grep-reflog=branch: Created from *. [69ms]
+2026-06-10 01:27:27.493 [info] > git symbolic-ref --short refs/remotes/origin_cicd/HEAD [6ms]
+2026-06-10 01:27:27.494 [info] fatal: ref refs/remotes/origin_cicd/HEAD is not a symbolic ref
+2026-06-10 01:27:27.494 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-06-10 01:27:27.538 [info] > git check-ignore -v -z --stdin [8ms]

@@ -1,0 +1,14 @@
+2026-05-21 18:30:46.875 [info] StorageMainService: creating application shared storage
+2026-05-21 18:30:46.875 [info] StorageMainService: creating application shared storage with local application storage fallback
+2026-05-21 18:30:46.875 [info] update#setState idle
+2026-05-21 18:30:46.875 [info] [shared storage] Creating shared storage database at '/home/devasc/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-05-21 18:30:46.875 [info] [shared storage] Initializing fallback application storage (type: local, path: /home/devasc/.config/Code/User/globalStorage/state.vscdb)
+2026-05-21 18:30:46.896 [info] [shared storage] Fallback application storage initialized with 41 items
+2026-05-21 18:32:09.821 [info] update#setState checking for updates
+2026-05-21 18:32:09.902 [info] update#setState idle
+2026-05-21 19:32:09.831 [info] update#setState checking for updates
+2026-05-21 19:32:09.833 [info] update#setState idle
+2026-05-21 20:32:09.832 [info] update#setState checking for updates
+2026-05-21 20:32:09.834 [info] update#setState idle
+2026-05-21 21:32:09.839 [info] update#setState checking for updates
+2026-05-21 21:32:09.841 [info] update#setState idle

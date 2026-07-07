@@ -1,0 +1,6 @@
+2026-05-21 18:28:40.584 [info] Started local extension host with pid 3010.
+2026-05-21 18:28:40.869 [info] Started initializing default profile extensions in extensions installation folder. file:///home/devasc/.vscode/extensions
+2026-05-21 18:28:42.346 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-21 18:28:42.377 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/devasc/.vscode/extensions
+2026-05-21 18:28:43.294 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.stopExtensionHosts
+2026-05-21 18:28:43.447 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled

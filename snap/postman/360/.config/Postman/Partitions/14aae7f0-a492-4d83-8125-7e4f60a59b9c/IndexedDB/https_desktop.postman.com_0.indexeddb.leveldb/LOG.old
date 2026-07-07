@@ -1,0 +1,24 @@
+2026/06/24-06:51:30.821 bef Reusing MANIFEST /home/devasc/snap/postman/360/.config/Postman/Partitions/14aae7f0-a492-4d83-8125-7e4f60a59b9c/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/24-06:51:30.822 bef Recovering log #11
+2026/06/24-06:51:30.905 bef Reusing old log /home/devasc/snap/postman/360/.config/Postman/Partitions/14aae7f0-a492-4d83-8125-7e4f60a59b9c/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/000011.log 
+2026/06/24-06:51:30.905 bef Delete type=2 #10
+2026/06/24-06:51:41.572 bef Level-0 table #16: started
+2026/06/24-06:51:41.579 bef Level-0 table #16: 161341 bytes OK
+2026/06/24-06:51:41.580 bef Delete type=0 #11
+2026/06/24-06:51:41.581 bef Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0a\x00\x00\x05' @ 6878 : 1
+2026/06/24-06:51:41.581 bef Compacting 1@0 + 1@1 files
+2026/06/24-06:51:41.587 bef Generated table #17@0: 2976 keys, 39997 bytes
+2026/06/24-06:51:41.587 bef Compacted 1@0 + 1@1 files => 39997 bytes
+2026/06/24-06:51:41.588 bef compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/24-06:51:41.589 bef Level-0 table #19: started
+2026/06/24-06:51:41.590 bef Level-0 table #19: 490 bytes OK
+2026/06/24-06:51:41.591 bef Delete type=0 #15
+2026/06/24-06:51:41.592 bef Manual compaction at level-0 from '\x00\x0a\x00\x00\x05' @ 6878 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0b\x00\x00\x05' @ 6894 : 1
+2026/06/24-06:51:41.592 bef Compacting 1@0 + 1@1 files
+2026/06/24-06:51:41.594 bef Generated table #20@0: 2980 keys, 40129 bytes
+2026/06/24-06:51:41.594 bef Compacted 1@0 + 1@1 files => 40129 bytes
+2026/06/24-06:51:41.595 bef compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/24-06:51:41.596 bef Delete type=2 #19
+2026/06/24-06:51:41.596 bef Delete type=2 #17
+2026/06/24-06:51:41.596 bef Manual compaction at level-0 from '\x00\x0b\x00\x00\x05' @ 6894 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/06/24-06:51:41.596 c05 Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)

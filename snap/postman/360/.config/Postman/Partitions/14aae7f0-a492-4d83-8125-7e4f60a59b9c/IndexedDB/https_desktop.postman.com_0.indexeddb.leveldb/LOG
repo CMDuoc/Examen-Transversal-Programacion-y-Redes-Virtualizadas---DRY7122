@@ -1,0 +1,31 @@
+2026/06/24-06:53:02.495 bef Reusing MANIFEST /home/devasc/snap/postman/360/.config/Postman/Partitions/14aae7f0-a492-4d83-8125-7e4f60a59b9c/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/24-06:53:02.496 bef Recovering log #18
+2026/06/24-06:53:02.496 bef Reusing old log /home/devasc/snap/postman/360/.config/Postman/Partitions/14aae7f0-a492-4d83-8125-7e4f60a59b9c/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/000018.log 
+2026/06/24-06:53:02.496 bef Delete type=2 #16
+2026/06/24-06:53:02.496 bef Delete type=2 #13
+2026/06/24-06:53:09.556 c05 Level-0 table #23: started
+2026/06/24-06:53:09.560 c05 Level-0 table #23: 38822 bytes OK
+2026/06/24-06:53:09.564 c05 Delete type=0 #18
+2026/06/24-06:53:09.565 c05 Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0c\x00\x00\x05' @ 7345 : 1
+2026/06/24-06:53:09.566 c05 Compacting 1@0 + 1@1 files
+2026/06/24-06:53:09.577 c05 Generated table #24@0: 3041 keys, 40982 bytes
+2026/06/24-06:53:09.577 c05 Compacted 1@0 + 1@1 files => 40982 bytes
+2026/06/24-06:53:09.600 c05 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/24-06:53:09.600 c05 Delete type=2 #23
+2026/06/24-06:53:09.603 c05 Manual compaction at level-0 from '\x00\x0c\x00\x00\x05' @ 7345 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/06/24-06:53:09.766 bef Level-0 table #26: started
+2026/06/24-06:53:09.773 bef Level-0 table #26: 772 bytes OK
+2026/06/24-06:53:09.775 bef Delete type=2 #20
+2026/06/24-06:53:09.775 bef Delete type=0 #22
+2026/06/24-06:53:09.775 bef Manual compaction at level-0 from '\x00\x0d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0d\x00\x00\x05' @ 7369 : 1
+2026/06/24-06:53:09.775 bef Compacting 1@0 + 1@1 files
+2026/06/24-06:53:09.779 bef Generated table #27@0: 3049 keys, 41138 bytes
+2026/06/24-06:53:09.779 bef Compacted 1@0 + 1@1 files => 41138 bytes
+2026/06/24-06:53:09.780 bef compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/24-06:53:09.780 bef Delete type=2 #26
+2026/06/24-06:53:09.781 c05 Manual compaction at level-0 from '\x00\x0d\x00\x00\x05' @ 7369 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/06/24-07:11:18.050 bef Compacting 1@1 + 1@2 files
+2026/06/24-07:11:18.054 bef Generated table #28@1: 758 keys, 20891 bytes
+2026/06/24-07:11:18.054 bef Compacted 1@1 + 1@2 files => 20891 bytes
+2026/06/24-07:11:18.056 bef compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/24-07:11:18.057 bef Delete type=2 #24

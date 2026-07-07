@@ -1,0 +1,37 @@
+---
+- name: Instalar y configurar Apache en Puerto 9999
+  hosts: localhost
+  become: yes
+
+  tasks:
+    - name: Instalar Apache2
+      ansible.builtin.apt:
+        name: apache2
+        state: present
+        update_cache: yes
+
+    - name: Cambiar puerto por defecto a 9999 en ports.conf
+      ansible.builtin.replace:
+        path: /etc/apache2/ports.conf
+        regexp: 'Listen 80'
+        replace: 'Listen 9999'
+
+    - name: Cambiar puerto en la configuracion del sitio por defecto
+      ansible.builtin.replace:
+        path: /etc/apache2/sites-available/0000-default.conf
+        regexp: '<VirtualHost \*:80>'
+        replace: '<VirtualHost \*:9999>'
+      ignore_errors: yes
+
+    - name: Cambiar puerto en 000-default.conf alternativo
+      ansible.builtin.replace:
+        path: /etc/apache2/sites-available/000-default.conf
+        regexp: '<VirtualHost \*:80>'
+        replace: '<VirtualHost \*:9999>'
+      ignore_errors: yes
+
+    - name: Reiniciar y asegurar que Apache este encendido
+      ansible.builtin.systemd:
+        name: apache2
+        state: restarted
+        enabled: yes

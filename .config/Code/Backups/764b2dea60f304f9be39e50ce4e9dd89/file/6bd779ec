@@ -1,0 +1,62 @@
+file:///home/devasc/labs/Evaluacion2/mapquest_v2.py {"mtime":1779388388663,"ctime":1779388388663,"size":0,"etag":"3g4d79nrl0","orphaned":false,"typeId":""}
+import urllib.parse
+import requests
+
+# URL base de la API de MapQuest Dirección
+main_api = "https://www.mapquestapi.com/directions/v2/route?"
+# Reemplaza este token por el asignado en tu laboratorio
+key = "TU_TOKEN_DE_MAPQUEST_AQUÍ" 
+
+print("====================================================")
+print("  Planificador de Viajes - Evaluación N°2 DRY7122   ")
+print("====================================================\n")
+
+while True:
+    # Solicitar Ciudad de Origen y permitir salida con 'q'
+    orig = input("Ciudad de Origen (o 'q' para salir): ").strip()
+    if orig.lower() == 'q':
+        print("Saliendo del programa...")
+        break
+        
+    # Solicitar Ciudad de Destino y permitir salida con 'q'
+    dest = input("Ciudad de Destino (o 'q' para salir): ").strip()
+    if dest.lower() == 'q':
+        print("Saliendo del programa...")
+        break
+
+    # Construcción de los parámetros y codificación de la URL
+    url = main_api + urllib.parse.urlencode({"key": key, "from": orig, "to": dest})
+    
+    try:
+        json_data = requests.get(url).json()
+        json_status = json_data["info"]["statuscode"]
+
+        if json_status == 0:
+            route_data = json_data["route"]
+            
+            # 1. Medir la distancia (Conversión nativa de millas a Kilómetros)
+            miles = route_data["distance"]
+            km = miles * 1.60934
+            
+            # 2. Mostrar la duración en horas, minutos y segundos
+            seconds_total = route_data["time"]
+            hours = int(seconds_total // 3600)
+            minutes = int((seconds_total % 3600) // 60)
+            seconds = int(seconds_total % 60)
+            
+            # 3. Combustible requerido en litros (Conversión promedio estándar: 12 KM por Litro)
+            liters_required = (km / 12.0)
+
+            # 4. Imprimir narrativa del viaje con dos decimales (.2f)
+            print("\n" + "="*50)
+            print(f"NARRATIVA DEL VIAJE: Ruta desde {orig.title()} hasta {dest.title()}")
+            print("="*50)
+            print(f"Distancia total : {km:.2f} km")
+            print(f"Duración viaje  : {hours} horas, {minutes} minutos y {seconds} segundos")
+            print(f"Combustible est.: {liters_required:.2f} litros (estimado a 12 km/L)")
+            print("="*50 + "\n")
+        else:
+            print(f"\n[Error] Ruta no encontrada o ciudades inválidas. Código de estado: {json_status}\n")
+            
+    except Exception as e:
+        print(f"\n[Error de Conexión]: {e}\n")
