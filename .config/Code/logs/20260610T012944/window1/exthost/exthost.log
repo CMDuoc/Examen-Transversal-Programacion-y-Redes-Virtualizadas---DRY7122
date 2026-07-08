@@ -1,0 +1,52 @@
+2026-06-10 01:29:48.841 [info] Extension host with pid 4543 started
+2026-06-10 01:29:49.698 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-06-10 01:29:49.829 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-10 01:29:49.939 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2026-06-10 01:29:51.186 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-06-10 01:29:51.591 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-06-10 01:29:51.821 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-06-10 01:29:52.059 [info] Eager extensions activated
+2026-06-10 01:29:52.111 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-06-10 01:29:52.116 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-06-10 01:29:52.146 [error] Error: The number of constructor arguments in the derived class o must be >= than the number of constructor arguments of its base class.
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261081
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at t.plan (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261159)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:257812
+	at e._get (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:257721)
+	at e.get (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:256432)
+	at a.get (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:48:999865)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:280985
+2026-06-10 01:32:32.711 [info] Extension host terminating: received terminate message from renderer
+2026-06-10 01:32:32.729 [info] Extension host with pid 4543 exiting with code 0
+2026-06-10 01:32:35.629 [info] Extension host with pid 4775 started
+2026-06-10 01:32:35.629 [info] Skipping acquiring lock for /home/devasc/.config/Code/User/workspaceStorage/1c0bd9c08737230911bbf7a0f6b57c6c.
+2026-06-10 01:32:35.730 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-06-10 01:32:35.801 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-10 01:32:35.886 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-06-10 01:32:35.978 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-06-10 01:32:36.061 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-06-10 01:32:36.298 [info] Eager extensions activated
+2026-06-10 01:32:36.346 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-06-10 01:32:36.354 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

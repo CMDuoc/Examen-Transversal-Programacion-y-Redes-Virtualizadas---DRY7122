@@ -1,0 +1,8 @@
+2026-05-21 18:28:36.841 [info] StorageMainService: creating application shared storage
+2026-05-21 18:28:36.847 [info] StorageMainService: creating application shared storage with local application storage fallback
+2026-05-21 18:28:36.850 [info] update#setState idle
+2026-05-21 18:28:37.257 [info] [shared storage] Creating shared storage database at '/home/devasc/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: true)
+2026-05-21 18:28:37.257 [info] [shared storage] Initializing fallback application storage (type: local, path: /home/devasc/.config/Code/User/globalStorage/state.vscdb)
+2026-05-21 18:28:37.351 [info] [shared storage] Fallback application storage initialized with 3 items
+2026-05-21 18:28:43.477 [info] Extension host with pid 3010 exited with code: 0, signal: unknown.
+2026-05-21 18:28:43.544 [error] Blocked vscode-file request vscode-file://vscode-app/snap/code/237/usr/share/code/resources/app/extensions/theme-seti/icons/seti.woff

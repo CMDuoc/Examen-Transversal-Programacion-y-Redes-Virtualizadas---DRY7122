@@ -1,0 +1,2 @@
+2026-06-10 01:27:26.422 [error] #2: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/copilot-chat/latest - error GET Fetch timeout: 60000ms
+2026-06-10 01:27:26.435 [error] #3: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-python/python/latest - error GET Fetch timeout: 60000ms

@@ -1,0 +1,41 @@
+2026-05-21 18:30:51.128 [info] Extension host with pid 3214 started
+2026-05-21 18:30:51.128 [info] Skipping acquiring lock for /home/devasc/.config/Code/User/workspaceStorage/2204bdebbaddf99a4582b9d0bd85c3b3.
+2026-05-21 18:30:51.293 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-21 18:30:51.396 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-21 18:30:51.548 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-05-21 18:30:51.734 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-21 18:30:51.927 [info] Eager extensions activated
+2026-05-21 18:30:51.978 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-21 18:30:51.982 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-21 18:32:22.890 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2026-05-21 18:33:08.817 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2026-05-21 18:33:11.815 [error] Error: The number of constructor arguments in the derived class o must be >= than the number of constructor arguments of its base class.
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261081
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at t.plan (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261159)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:257812
+	at e._get (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:257721)
+	at e.get (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:256432)
+	at a.get (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:48:999865)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:280985

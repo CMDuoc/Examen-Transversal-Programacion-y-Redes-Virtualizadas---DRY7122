@@ -1,0 +1,27 @@
+2026/05/21-19:02:25.302 117a Reusing MANIFEST /home/devasc/snap/chromium/1193/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/05/21-19:02:25.302 117a Recovering log #8
+2026/05/21-19:02:25.462 117a Reusing old log /home/devasc/snap/chromium/1193/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000008.log 
+2026/05/21-19:02:31.009 1220 Level-0 table #12: started
+2026/05/21-19:02:31.091 1220 Level-0 table #12: 4353266 bytes OK
+2026/05/21-19:02:31.092 1220 Delete type=0 #8
+2026/05/21-19:03:49.273 1220 Level-0 table #14: started
+2026/05/21-19:03:49.275 1220 Level-0 table #14: 188248 bytes OK
+2026/05/21-19:03:49.276 1220 Delete type=0 #11
+2026/05/21-19:03:49.276 1220 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x01\x03\x02\x01'\x00b\x00f\x00a\x00e\x004\x00c\x00d\x00e\x00a\x007\x002\x005\x008\x003\x009\x002\x009\x001\x008\x00b\x00a\x002\x005\x00a\x003\x004\x008\x005\x001\x00b\x003\x00f\x00_\x003\x00_\x004\x00:\x000\x000' @ 872 : 1
+2026/05/21-19:03:49.276 1220 Compacting 3@0 + 1@1 files
+2026/05/21-19:03:49.283 1220 Generated table #15@0: 291 keys, 83389 bytes
+2026/05/21-19:03:49.283 1220 Compacted 3@0 + 1@1 files => 83389 bytes
+2026/05/21-19:03:49.283 1220 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/21-19:03:49.284 1220 Delete type=2 #9
+2026/05/21-19:03:49.284 1220 Delete type=2 #12
+2026/05/21-19:03:49.284 1220 Delete type=2 #7
+2026/05/21-19:03:49.284 1220 Delete type=2 #14
+2026/05/21-19:03:49.286 1220 Manual compaction at level-0 from '\x00\x01\x03\x02\x01'\x00b\x00f\x00a\x00e\x004\x00c\x00d\x00e\x00a\x007\x002\x005\x008\x003\x009\x002\x009\x001\x008\x00b\x00a\x002\x005\x00a\x003\x004\x008\x005\x001\x00b\x003\x00f\x00_\x003\x00_\x004\x00:\x000\x000' @ 872 : 1 .. (end); will stop at (end)
+2026/05/21-19:03:49.287 1220 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x03\x02\x01%\x00e\x009\x00a\x00f\x002\x001\x009\x00b\x00a\x00e\x005\x001\x00e\x00a\x00b\x003\x000\x003\x000\x003\x00a\x003\x007\x00e\x009\x001\x005\x004\x00f\x003\x009\x008\x00_\x007\x00:\x000\x000' @ 1342 : 1
+2026/05/21-19:03:49.287 1220 Compacting 1@1 + 1@2 files
+2026/05/21-19:03:49.290 1220 Generated table #16@1: 81 keys, 81193 bytes
+2026/05/21-19:03:49.290 1220 Compacted 1@1 + 1@2 files => 81193 bytes
+2026/05/21-19:03:49.291 1220 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/21-19:03:49.291 1220 Delete type=2 #5
+2026/05/21-19:03:49.291 1220 Delete type=2 #15
+2026/05/21-19:03:49.292 1220 Manual compaction at level-1 from '\x00\x01\x03\x02\x01%\x00e\x009\x00a\x00f\x002\x001\x009\x00b\x00a\x00e\x005\x001\x00e\x00a\x00b\x003\x000\x003\x000\x003\x00a\x003\x007\x00e\x009\x001\x005\x004\x00f\x003\x009\x008\x00_\x007\x00:\x000\x000' @ 1342 : 1 .. (end); will stop at (end)

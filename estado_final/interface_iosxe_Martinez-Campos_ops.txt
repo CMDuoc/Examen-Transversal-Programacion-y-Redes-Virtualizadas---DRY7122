@@ -1,0 +1,232 @@
+{
+  "_exclude": [
+    "in_discards",
+    "in_octets",
+    "in_pkts",
+    "last_clear",
+    "out_octets",
+    "out_pkts",
+    "in_rate",
+    "out_rate",
+    "in_errors",
+    "in_crc_errors",
+    "in_rate_pkts",
+    "out_rate_pkts",
+    "in_broadcast_pkts",
+    "out_broadcast_pkts",
+    "in_multicast_pkts",
+    "out_multicast_pkts",
+    "in_unicast_pkts",
+    "out_unicast_pkts",
+    "last_change",
+    "mac_address",
+    "phys_address",
+    "((t|T)unnel.*)",
+    "(Null.*)",
+    "chars_out",
+    "chars_in",
+    "pkts_out",
+    "pkts_in",
+    "mgmt0"
+  ],
+  "attributes": null,
+  "commands": null,
+  "connections": null,
+  "context_manager": {},
+  "info": {
+    "GigabitEthernet1": {
+      "accounting": {
+        "arp": {
+          "chars_in": 1890,
+          "chars_out": 1800,
+          "pkts_in": 45,
+          "pkts_out": 30
+        },
+        "ip": {
+          "chars_in": 198387,
+          "chars_out": 481938,
+          "pkts_in": 1343,
+          "pkts_out": 1525
+        },
+        "ipv6": {
+          "chars_in": 2836,
+          "chars_out": 0,
+          "pkts_in": 13,
+          "pkts_out": 0
+        },
+        "other": {
+          "chars_in": 2674,
+          "chars_out": 1800,
+          "pkts_in": 59,
+          "pkts_out": 30
+        }
+      },
+      "auto_negotiate": true,
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 193743,
+        "in_pkts": 1345,
+        "last_clear": "never",
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_octets": 488170,
+        "out_pkts": 1477,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "description": "VBox",
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "ipv4": {
+        "192.168.56.102/24": {
+          "ip": "192.168.56.102",
+          "prefix_length": "24",
+          "secondary": false
+        }
+      },
+      "mac_address": "0800.275a.c6bd",
+      "mtu": 1500,
+      "oper_status": "up",
+      "phys_address": "0800.275a.c6bd",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "port_speed": "1000mbps",
+      "switchport_enable": false,
+      "type": "CSR vNIC"
+    },
+    "Loopback1": {
+      "bandwidth": 8000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "last_clear": "never",
+        "out_errors": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 5000,
+      "enabled": false,
+      "encapsulation": {
+        "encapsulation": "loopback"
+      },
+      "ipv4": {
+        "1.1.1.1/32": {
+          "ip": "1.1.1.1",
+          "prefix_length": "32",
+          "secondary": false
+        }
+      },
+      "ipv6": {
+        "FE80::1": {
+          "ip": "FE80::1",
+          "origin": "link_layer",
+          "status": "tentative"
+        }
+      },
+      "mtu": 1514,
+      "oper_status": "down",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": false,
+      "type": "Loopback"
+    },
+    "Loopback3": {
+      "accounting": {
+        "ip": {
+          "chars_in": 258,
+          "chars_out": 258,
+          "pkts_in": 2,
+          "pkts_out": 2
+        },
+        "ipv6": {
+          "chars_in": 380,
+          "chars_out": 380,
+          "pkts_in": 5,
+          "pkts_out": 5
+        }
+      },
+      "bandwidth": 8000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "last_clear": "never",
+        "out_errors": 0,
+        "out_octets": 638,
+        "out_pkts": 7,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 5000,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "loopback"
+      },
+      "ipv4": {
+        "10.2.2.1/24": {
+          "ip": "10.2.2.1",
+          "prefix_length": "24",
+          "secondary": false
+        }
+      },
+      "ipv6": {
+        "3001:ABCD:ABCD:2::/64": {
+          "ip": "3001:ABCD:ABCD:2::",
+          "prefix_length": "64",
+          "status": "valid"
+        },
+        "FE80::21E:14FF:FECC:6B00": {
+          "ip": "FE80::21E:14FF:FECC:6B00",
+          "origin": "link_layer",
+          "status": "valid"
+        }
+      },
+      "mtu": 1514,
+      "oper_status": "up",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": false,
+      "type": "Loopback"
+    }
+  }
+}

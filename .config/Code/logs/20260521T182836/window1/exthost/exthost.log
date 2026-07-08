@@ -1,0 +1,4 @@
+2026-05-21 18:28:43.261 [info] Extension host with pid 3010 started
+2026-05-21 18:28:43.261 [info] Skipping acquiring lock for /home/devasc/.config/Code/User/workspaceStorage/da9a6f97c490a9113ac5de348865b2ac.
+2026-05-21 18:28:43.456 [info] Extension host terminating: received terminate message from renderer
+2026-05-21 18:28:43.460 [info] Extension host with pid 3010 exiting with code 0

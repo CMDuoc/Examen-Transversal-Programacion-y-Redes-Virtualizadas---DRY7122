@@ -1,0 +1,69 @@
+2026-06-10 01:25:16.139 [info] Started local extension host with pid 3181.
+2026-06-10 01:25:18.659 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-10 01:27:25.955 [error] [Extension Host] Error Python Extension: 2026-06-10 01:25:19: Failure during activation. [Error: The number of constructor arguments in the derived class o must be >= than the number of constructor arguments of its base class.
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261081
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at t.plan (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261159)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:257812
+	at e._get (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:257721)
+	at e.get (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:256432)
+	at a.get (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:48:999865)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:280985]
+2026-06-10 01:27:25.955 [error] [Extension Host] Error Python Extension: 2026-06-10 01:25:19: sendStartupTelemetry() failed. [Error: The number of constructor arguments in the derived class o must be >= than the number of constructor arguments of its base class.
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261081
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261118
+	at Array.forEach (<anonymous>)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261097
+	at Array.forEach (<anonymous>)
+	at e (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:260644)
+	at t.plan (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:261159)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:257812
+	at e._get (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:257721)
+	at e.get (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:256432)
+	at a.get (/home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:48:999865)
+	at /home/devasc/.vscode/extensions/ms-python.python-2020.6.88468/out/client/extension.js:39:280985]
+2026-06-10 01:27:25.956 [error] [Extension Host] (node:3181) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-06-10 01:27:26.108 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-06-10 01:27:26.363 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-10 01:27:26.427 [error] Error while getting the latest version for the extension github.copilot-chat from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Failed
+2026-06-10 01:27:26.435 [error] Error while getting the latest version for the extension ms-python.python from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Failed
+2026-06-10 01:27:26.858 [error] An unknown error occurred. Please consult the log for more details.

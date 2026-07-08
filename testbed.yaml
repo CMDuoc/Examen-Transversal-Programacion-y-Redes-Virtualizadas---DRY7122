@@ -1,0 +1,15 @@
+devices:
+  Martinez-Campos:
+    connections:
+      cli:
+        ip: "192.168.56.102"
+        protocol: ssh
+        arguments:
+          ssh_options: "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
+    credentials:
+      default:
+        username: "Martinez"
+        password: "cisco123"
+    os: iosxe
+    platform: csr1000v
+    type: router

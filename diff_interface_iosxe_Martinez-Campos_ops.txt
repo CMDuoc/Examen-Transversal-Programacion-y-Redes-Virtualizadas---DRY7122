@@ -1,0 +1,9 @@
+--- estado_inicial/interface_iosxe_Martinez-Campos_ops.txt
++++ estado_final/interface_iosxe_Martinez-Campos_ops.txt
+ info:
+  Loopback1:
+   ipv6:
+-   3001:ABCD:ABCD:1::1/128: 
+-    ip: 3001:ABCD:ABCD:1::1
+-    prefix_length: 128
+-    status: tentative
