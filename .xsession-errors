@@ -44,8 +44,8 @@ VBoxClient: error: unrecognized option '--display'
 mate-session-check-accelerated: GL Helper exited with code 512
 libEGL warning: DRI2: failed to authenticate
 mate-session-check-accelerated: GLES Helper exited with code 512
-** Message: 02:13:27.249: couldn't access control socket: /run/user/900/keyring/control: No such file or directory
-mate-session[2186]: WARNING: Unable to find provider '' of required component 'dock'
+** Message: 05:21:46.821: couldn't access control socket: /run/user/900/keyring/control: No such file or directory
+mate-session[2053]: WARNING: Unable to find provider '' of required component 'dock'
 Window manager warning: Log level 128: unsetenv() is not thread-safe and should not be used after threads are created
 Window manager warning: Log level 128: Name com.canonical.AppMenu.Registrar does not exist on the session bus
 
@@ -53,28 +53,28 @@ VBoxClient: error: No service specified. Quitting because nothing to do!
 VBoxClient: error: unrecognized option '--display'
 vmware-user: could not open /proc/fs/vmblock/dev
 
-(process:2711): indicator-sound-WARNING **: 02:13:35.356: volume-control-pulse.vala:744: Unable to connect to dbus server at 'unix:path=/run/user/900/pulse/dbus-socket': Could not connect: No such file or directory
+(process:2583): indicator-sound-WARNING **: 05:21:54.014: volume-control-pulse.vala:744: Unable to connect to dbus server at 'unix:path=/run/user/900/pulse/dbus-socket': Could not connect: No such file or directory
 
-(caja:2574): Gtk-WARNING **: 02:13:35.363: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+(caja:2452): Gtk-WARNING **: 05:21:54.018: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
 
-** (process:2612): WARNING **: 02:13:38.345: could not find the desktop file for 'org.gnome.Calendar.desktop'
+** (process:2478): WARNING **: 05:21:56.532: could not find the desktop file for 'org.gnome.Calendar.desktop'
 
-(process:2612): Indicator-Datetime-WARNING **: 02:13:38.513: Unrecognized TZID: 'Etc/Utc'
+(process:2478): Indicator-Datetime-WARNING **: 05:21:56.937: Unrecognized TZID: 'Etc/Utc'
 
-(process:2612): Indicator-Datetime-WARNING **: 02:13:38.513: Unrecognized TZID: 'Etc/Utc'
+(process:2478): Indicator-Datetime-WARNING **: 05:21:56.937: Unrecognized TZID: 'Etc/Utc'
 
-(process:2612): Indicator-Datetime-WARNING **: 02:13:38.548: Unrecognized TZID: 'Etc/UTC'
+(process:2478): Indicator-Datetime-WARNING **: 05:21:56.937: Unrecognized TZID: 'Etc/Utc'
 
-(process:2612): Indicator-Datetime-WARNING **: 02:13:38.720: Unrecognized TZID: 'Etc/UTC'
+(process:2478): Indicator-Datetime-WARNING **: 05:21:57.140: Unrecognized TZID: 'Etc/UTC'
 
-(process:2612): Indicator-Datetime-WARNING **: 02:13:38.720: Unrecognized TZID: 'Etc/UTC'
+(process:2478): Indicator-Datetime-WARNING **: 05:21:57.140: Unrecognized TZID: 'Etc/UTC'
+
+(process:2478): Indicator-Datetime-WARNING **: 05:21:57.140: Unrecognized TZID: 'Etc/UTC'
 INFO:root:The HUD is disabled via org.mate.hud in gsettings.
-RuntimeError: object at 0x7f44ebff1700 of type RenameMenu is not initialized
+RuntimeError: object at 0x7f66d603ad00 of type RenameMenu is not initialized
 
-(process:2612): Indicator-Datetime-WARNING **: 02:13:47.613: Unrecognized TZID: 'Etc/UTC'
+(process:2478): Indicator-Datetime-WARNING **: 05:22:03.978: Unrecognized TZID: 'Etc/UTC'
 
-(process:2612): Indicator-Datetime-WARNING **: 02:13:47.613: Unrecognized TZID: 'Etc/UTC'
+(process:2478): Indicator-Datetime-WARNING **: 05:22:03.978: Unrecognized TZID: 'Etc/UTC'
 
-(process:2612): Indicator-Datetime-WARNING **: 02:13:47.614: Unrecognized TZID: 'Etc/UTC'
-
-(mate-power-manager:2605): GLib-CRITICAL **: 02:58:48.167: Source ID 51 was not found when attempting to remove it
+(process:2478): Indicator-Datetime-WARNING **: 05:22:03.978: Unrecognized TZID: 'Etc/UTC'
